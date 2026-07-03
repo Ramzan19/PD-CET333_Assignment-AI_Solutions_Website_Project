@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880"><rect width="1200" height="880" fill="#ffffff"/><rect x="8" y="8" width="1184" height="864" rx="16" fill="#ffffff" stroke="#33373b" stroke-width="2.6"/>
+<rect x="24" y="20" width="150" height="26" rx="8" fill="#eef1f4" stroke="#33373b" stroke-width="1.6"/>
+<text x="36" y="38" font-family="Architects Daughter" font-size="16" fill="#6b7178" text-anchor="start" font-weight="normal">A Web Page</text>
+<circle cx="1134" cy="33" r="7" fill="none" stroke="#33373b" stroke-width="2"/>
+<circle cx="1156" cy="33" r="7" fill="none" stroke="#33373b" stroke-width="2"/>
+<circle cx="1176" cy="33" r="7" fill="none" stroke="#33373b" stroke-width="2"/>
+<rect x="24" y="54" width="1152" height="30" rx="15" fill="#fbfbfc" stroke="#33373b" stroke-width="1.6"/>
+<circle cx="44" cy="69" r="7" fill="none" stroke="#6b7178" stroke-width="2"/>
+<text x="60" y="75" font-family="Architects Daughter" font-size="16" fill="#6b7178" text-anchor="start" font-weight="normal">https://www.aisolutions-demo.com/admin/manage-records.php</text>
+<rect x="24" y="100" width="232" height="756" rx="12" fill="#eef1f4" stroke="#33373b" stroke-width="2"/>
+<circle cx="58" cy="134" r="16" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="58" y="140" font-family="Architects Daughter" font-size="14" fill="#33373b" text-anchor="middle" font-weight="bold">AI</text>
+<text x="82" y="132" font-family="Architects Daughter" font-size="18" fill="#33373b" text-anchor="start" font-weight="bold">AI-Solutions</text>
+<text x="82" y="150" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Admin Panel</text>
+<text x="42" y="180" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">OVERVIEW</text>
+<text x="46" y="205" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Dashboard</text>
+<text x="46" y="233" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Visitors</text>
+<text x="46" y="261" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Monthly Reports</text>
+<text x="42" y="294" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">CUSTOMER DATA</text>
+<text x="46" y="319" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Inquiries</text>
+<text x="46" y="347" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Demo Bookings</text>
+<text x="46" y="375" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Events</text>
+<text x="46" y="403" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Chatbot Leads</text>
+<text x="46" y="431" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Feedback</text>
+<text x="42" y="464" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">OPERATIONS</text>
+<text x="46" y="489" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">SMTP</text>
+<text x="46" y="517" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Outbox</text>
+<rect x="36" y="526" width="208" height="26" rx="7" fill="#ffffff" stroke="#33373b" stroke-width="1.6"/>
+<text x="46" y="545" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="bold">Records</text>
+<text x="46" y="573" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Activity Log</text>
+<text x="276" y="122" font-family="Architects Daughter" font-size="30" fill="#33373b" text-anchor="start" font-weight="bold">Manage Records</text>
+<text x="276" y="146" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="normal">Inquiries, demo bookings, events, leads, and feedback.</text>
+<rect x="276.0" y="164" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="290.0" y="194" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Inquiries</text>
+<text x="290.0" y="212" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="580.6666666666667" y="164" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="594.6666666666667" y="194" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Demo Bookings</text>
+<text x="594.6666666666667" y="212" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="885.3333333333334" y="164" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="899.3333333333334" y="194" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Events</text>
+<text x="899.3333333333334" y="212" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="276.0" y="236" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="290.0" y="266" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Chatbot Leads</text>
+<text x="290.0" y="284" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="580.6666666666667" y="236" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="594.6666666666667" y="266" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Feedback</text>
+<text x="594.6666666666667" y="284" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="885.3333333333334" y="236" width="290.6666666666667" height="60" rx="10" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="899.3333333333334" y="266" font-family="Architects Daughter" font-size="16" fill="#33373b" text-anchor="start" font-weight="bold">Visitor Tracker</text>
+<text x="899.3333333333334" y="284" font-family="Architects Daughter" font-size="13" fill="#6b7178" text-anchor="start" font-weight="normal">Manage →</text>
+<rect x="276" y="320" width="900" height="250" rx="12" fill="#fff" stroke="#33373b" stroke-width="2"/>
+<text x="292" y="350" font-family="Architects Daughter" font-size="17" fill="#33373b" text-anchor="start" font-weight="bold">Combined Records (CRUD)</text>
+<text x="292" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">ID</text>
+<text x="346" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">Name</text>
+<text x="526" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">Category</text>
+<text x="706" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">Date</text>
+<text x="836" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">Status</text>
+<text x="976" y="378" font-family="Architects Daughter" font-size="15" fill="#6b7178" text-anchor="start" font-weight="bold">Actions</text>
+<line x1="292" y1="388" x2="1160" y2="388" stroke="#c7ccd2" stroke-width="2"/>
+<text x="292" y="412" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">1</text>
+<text x="346" y="412" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Customer</text>
+<text x="526" y="412" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Inquiry</text>
+<text x="706" y="412" font-family="Architects Daughter" font-size="14" fill="#6b7178" text-anchor="start" font-weight="normal">2026-06-20</text>
+<rect x="836" y="396" width="72" height="24" rx="12" fill="#eef1f4" stroke="#33373b" stroke-width="1.4"/>
+<text x="872" y="412" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">New</text>
+<rect x="976" y="395" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1004" y="412" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">View</text>
+<rect x="1038" y="395" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1066" y="412" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Edit</text>
+<rect x="1100" y="395" width="56" height="26" rx="7" fill="#e3e7ec" stroke="#33373b" stroke-width="1.4"/>
+<text x="1128" y="412" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Del</text>
+<text x="292" y="450" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">2</text>
+<text x="346" y="450" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Customer</text>
+<text x="526" y="450" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Inquiry</text>
+<text x="706" y="450" font-family="Architects Daughter" font-size="14" fill="#6b7178" text-anchor="start" font-weight="normal">2026-06-20</text>
+<rect x="836" y="434" width="72" height="24" rx="12" fill="#eef1f4" stroke="#33373b" stroke-width="1.4"/>
+<text x="872" y="450" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">New</text>
+<rect x="976" y="433" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1004" y="450" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">View</text>
+<rect x="1038" y="433" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1066" y="450" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Edit</text>
+<rect x="1100" y="433" width="56" height="26" rx="7" fill="#e3e7ec" stroke="#33373b" stroke-width="1.4"/>
+<text x="1128" y="450" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Del</text>
+<text x="292" y="488" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">3</text>
+<text x="346" y="488" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Customer</text>
+<text x="526" y="488" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Inquiry</text>
+<text x="706" y="488" font-family="Architects Daughter" font-size="14" fill="#6b7178" text-anchor="start" font-weight="normal">2026-06-20</text>
+<rect x="836" y="472" width="72" height="24" rx="12" fill="#eef1f4" stroke="#33373b" stroke-width="1.4"/>
+<text x="872" y="488" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">New</text>
+<rect x="976" y="471" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1004" y="488" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">View</text>
+<rect x="1038" y="471" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1066" y="488" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Edit</text>
+<rect x="1100" y="471" width="56" height="26" rx="7" fill="#e3e7ec" stroke="#33373b" stroke-width="1.4"/>
+<text x="1128" y="488" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Del</text>
+<text x="292" y="526" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">4</text>
+<text x="346" y="526" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Customer</text>
+<text x="526" y="526" font-family="Architects Daughter" font-size="15" fill="#33373b" text-anchor="start" font-weight="normal">Inquiry</text>
+<text x="706" y="526" font-family="Architects Daughter" font-size="14" fill="#6b7178" text-anchor="start" font-weight="normal">2026-06-20</text>
+<rect x="836" y="510" width="72" height="24" rx="12" fill="#eef1f4" stroke="#33373b" stroke-width="1.4"/>
+<text x="872" y="526" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">New</text>
+<rect x="976" y="509" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1004" y="526" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">View</text>
+<rect x="1038" y="509" width="56" height="26" rx="7" fill="#fff" stroke="#33373b" stroke-width="1.4"/>
+<text x="1066" y="526" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Edit</text>
+<rect x="1100" y="509" width="56" height="26" rx="7" fill="#e3e7ec" stroke="#33373b" stroke-width="1.4"/>
+<text x="1128" y="526" font-family="Architects Daughter" font-size="13" fill="#33373b" text-anchor="middle" font-weight="normal">Del</text>
+<text x="276" y="592" font-family="Architects Daughter" font-size="14" fill="#6b7178" text-anchor="start" font-weight="normal">Edit opens a full-field form (name, email, status, notes...) — Update / Delete.</text></svg>

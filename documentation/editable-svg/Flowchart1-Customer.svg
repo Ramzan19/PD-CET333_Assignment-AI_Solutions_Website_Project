@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1080" viewBox="0 0 1780 1080"><rect width="1780" height="1080" fill="#ffffff"/><defs><marker id="ah" markerWidth="11" markerHeight="11" refX="8.5" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3 L0,6 z" fill="#5a6068"/></marker></defs><text x="890.0" y="42" font-family="Carlito, DejaVu Sans, sans-serif" font-size="26" fill="#33373b" font-weight="700" text-anchor="middle">Flowchart 1 - Customer / Public Website Flow</text><text x="34" y="92" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#9aa1a8" font-weight="700">CUSTOMER-FACING WEBSITE FLOW</text>
+<text x="1300" y="452" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#9aa1a8" font-weight="700">VALIDATION &amp; STORAGE</text>
+<ellipse cx="120" cy="200" rx="86" ry="40" fill="#cfe0f5" stroke="#2f6fb0" stroke-width="2.4"/>
+<text x="120" y="194.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Start:</text>
+<text x="120" y="217.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">visits website</text>
+<rect x="250" y="164" width="180" height="72" rx="12" fill="#d8efd8" stroke="#3a9d52" stroke-width="2.4"/>
+<text x="340.0" y="193.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">Home / Landing</text>
+<text x="340.0" y="218.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">page</text>
+<rect x="470" y="150" width="220" height="100" rx="12" fill="#d8efd8" stroke="#3a9d52" stroke-width="2.4"/>
+<text x="580.0" y="182.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Browse public pages:</text>
+<text x="580.0" y="206.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Services, Events,</text>
+<text x="580.0" y="230.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Articles, Gallery</text>
+<polygon points="830,141.0 915.0,200 830,259.0 745.0,200" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="830" y="194.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Select</text>
+<text x="830" y="218.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">action</text>
+<rect x="1000" y="70" width="230" height="62" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1115.0" y="95.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Inquiry form</text>
+<text x="1115.0" y="118.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">(Contact Us)</text>
+<polyline points="915,200 1000,101" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="925.9" y="137.5" width="63.199999999999996" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="957.5" y="152.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Inquiry</text>
+<rect x="1000" y="150" width="230" height="62" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1115.0" y="175.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Schedule Demo</text>
+<text x="1115.0" y="198.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">form</text>
+<polyline points="915,200 1000,181" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="937.3" y="177.5" width="40.4" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="957.5" y="192.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Demo</text>
+<rect x="1000" y="230" width="230" height="62" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1115.0" y="255.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Event</text>
+<text x="1115.0" y="278.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">registration</text>
+<polyline points="915,200 1000,261" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="933.5" y="217.5" width="48.0" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="957.5" y="232.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Event</text>
+<rect x="1000" y="310" width="230" height="62" rx="12" fill="#e9ddff" stroke="#7a52c0" stroke-width="2.4"/>
+<text x="1115.0" y="335.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">AI Chatbot +</text>
+<text x="1115.0" y="358.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">human handover</text>
+<polyline points="915,200 1000,341" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="937.3" y="257.5" width="40.4" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="957.5" y="272.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Chat</text>
+<rect x="1000" y="390" width="230" height="62" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1115.0" y="415.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Feedback +</text>
+<text x="1115.0" y="438.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">rating</text>
+<polyline points="915,200 1000,421" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="922.1" y="297.5" width="70.8" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="957.5" y="312.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Feedback</text>
+<rect x="1320" y="164" width="210" height="72" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1425.0" y="193.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">Request / form</text>
+<text x="1425.0" y="218.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">data captured</text>
+<polyline points="1230,101 1320,200" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1230,181 1320,200" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1230,261 1320,200" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1230,341 1320,200" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1230,421 1320,200" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1425,236 1425,480" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1300" y="480" width="250" height="96" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1425.0" y="510.78" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Validate input (PHP + JS):</text>
+<text x="1425.0" y="533.78" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">required, email format,</text>
+<text x="1425.0" y="556.78" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">CAPTCHA, CSRF, consent</text>
+<polygon points="1425,632.0 1510.0,690 1425,748.0 1340.0,690" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="1425" y="696.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Valid?</text>
+<polyline points="1425,576 1425,632" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1340,690 960,690 960,421 1000,421" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)" stroke-dasharray="6,5"/>
+<rect x="1088.0" y="677.0" width="124.0" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1150.0" y="692.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">No: show errors</text>
+<rect x="1320" y="800" width="210" height="70" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1425.0" y="828.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">Store in MySQL</text>
+<text x="1425.0" y="853.96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="19" fill="#33373b" font-weight="600" text-anchor="middle">database</text>
+<polyline points="1425,748 1425,800" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1408.6" y="761.0" width="32.8" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1425.0" y="776.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Yes</text>
+<path d="M1340,919 a85.0,14 0 0,1 170,0 v92 a85.0,14 0 0,1 -170,0 z" fill="#ffe2c4" stroke="#e0892c" stroke-width="2.4"/>
+<path d="M1340,919 a85.0,14 0 0,0 170,0" fill="none" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1425.0" y="942.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">MySQL DB:</text>
+<text x="1425.0" y="963.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">inquiries, demos,</text>
+<text x="1425.0" y="984.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">events, leads,</text>
+<text x="1425.0" y="1005.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">feedback</text>
+<polyline points="1425,870 1425,905" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1404.8" y="874.5" width="40.4" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1425.0" y="889.5" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">save</text>
+<rect x="780" y="800" width="220" height="70" rx="12" fill="#d8efd8" stroke="#3a9d52" stroke-width="2.4"/>
+<text x="890.0" y="829.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Show success +</text>
+<text x="890.0" y="852.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">acknowledgement email</text>
+<polyline points="1320,835 1000,835" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<ellipse cx="430" cy="835" rx="86" ry="38" fill="#cfe0f5" stroke="#2f6fb0" stroke-width="2.4"/>
+<text x="430" y="841.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">End</text>
+<polyline points="780,835 516,835" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/></svg>

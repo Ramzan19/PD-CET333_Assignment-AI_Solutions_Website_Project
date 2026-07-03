@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Solutions — Dashboard Charts Preview</title>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; background: #f4f7fb; color: #243240; margin: 0; padding: 24px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.note { margin: 0 0 20px; color: #5b6b7a; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .panel { background: #fff; border: 1px solid #e3e9f0; border-radius: 14px; padding: 16px 18px; box-shadow: 0 6px 18px rgba(30,58,95,0.05); }
+  .panel.wide { grid-column: 1 / -1; }
+  .panel h2 { font-size: 14px; margin: 0 0 12px; color: #1f3a5f; }
+  .wrap { position: relative; height: 240px; }
+  .wrap.tall { height: 280px; }
+</style>
+</head>
+<body>
+  <h1>Admin Dashboard — Chart.js Preview (sample data)</h1>
+  <p class="note">This standalone page uses the same chart code and the locally vendored Chart.js as the live admin dashboard (dashboard.php). Open it in a browser to confirm rendering offline.</p>
+  <div class="grid">
+    <div class="panel wide"><h2>Website Engagement</h2><div class="wrap tall"><canvas id="chartEngagement"></canvas></div></div>
+    <div class="panel"><h2>7-Day Visitor Trend</h2><div class="wrap"><canvas id="chartDaily"></canvas></div></div>
+    <div class="panel"><h2>Top Pages</h2><div class="wrap"><canvas id="chartPages"></canvas></div></div>
+    <div class="panel"><h2>Device Mix</h2><div class="wrap"><canvas id="chartDevices"></canvas></div></div>
+    <div class="panel"><h2>Demand by Country</h2><div class="wrap"><canvas id="chartCountries"></canvas></div></div>
+    <div class="panel"><h2>Interest Mix</h2><div class="wrap"><canvas id="chartInterests"></canvas></div></div>
+  </div>
+
+  <script>
+  window.DASH = {
+    engagement: { labels: ['Visitors','Feedback','Inquiries','Demos','Events','Chatbot leads'], values: [128, 14, 22, 9, 6, 5] },
+    daily:      { labels: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], values: [12, 18, 9, 22, 27, 15, 19] },
+    pages:      { labels: ['Home','Services','Contact','Events','Articles'], values: [54, 32, 21, 17, 11] },
+    devices:    { labels: ['Desktop','Mobile','Tablet'], values: [78, 41, 9] },
+    countries:  { labels: ['UK','Nepal','India','USA','Germany'], values: [19, 14, 8, 6, 3] },
+    interests:  { labels: ['Virtual Assistant','Data Analytics','Workflow Automation','Prototyping','Events'], values: [16, 11, 9, 7, 6] }
+  };
+  </script>
+  <script src="../assets/js/vendor/chart.umd.js"></script>
+  <script>
+  (function () {
+    if (!window.Chart || !window.DASH) { return; }
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    Chart.defaults.font.family = "'Inter', system-ui, -apple-system, sans-serif";
+    Chart.defaults.color = '#5b6b7a';
+    var anim = reduce ? false : { duration: 650 };
+    var palette = ['#1ab8c7', '#f26a4f', '#ffb07a', '#2ec4a6', '#6c8cff', '#f5c451', '#8b5cf6', '#34d399'];
+    var sum = function (a) { return (a || []).reduce(function (s, n) { return s + (+n || 0); }, 0); };
+    function render(id, builder, data) {
+      var c = document.getElementById(id);
+      if (!c) { return; }
+      if (!data.values || !data.values.length || sum(data.values) === 0) { return; }
+      new Chart(c.getContext('2d'), builder(data));
+    }
+    var barOpts = { responsive: true, maintainAspectRatio: false, animation: anim, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } };
+    var hbarOpts = { responsive: true, maintainAspectRatio: false, animation: anim, indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: { beginAtZero: true, ticks: { precision: 0 } } } };
+    var lineOpts = { responsive: true, maintainAspectRatio: false, animation: anim, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } };
+    var doughOpts = { responsive: true, maintainAspectRatio: false, animation: anim, cutout: '60%', plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } } } };
+    render('chartEngagement', function (d) { return { type: 'bar', data: { labels: d.labels, datasets: [{ data: d.values, backgroundColor: d.labels.map(function (_, i) { return palette[i % palette.length]; }), borderRadius: 6, maxBarThickness: 48 }] }, options: barOpts }; }, window.DASH.engagement);
+    render('chartDaily', function (d) { return { type: 'line', data: { labels: d.labels, datasets: [{ data: d.values, borderColor: '#1ab8c7', backgroundColor: 'rgba(26,184,199,0.15)', fill: true, tension: 0.35, pointRadius: 3, pointBackgroundColor: '#1ab8c7', borderWidth: 2 }] }, options: lineOpts }; }, window.DASH.daily);
+    render('chartPages', function (d) { return { type: 'bar', data: { labels: d.labels, datasets: [{ data: d.values, backgroundColor: '#1ab8c7', borderRadius: 6, maxBarThickness: 26 }] }, options: hbarOpts }; }, window.DASH.pages);
+    render('chartDevices', function (d) { return { type: 'doughnut', data: { labels: d.labels, datasets: [{ data: d.values, backgroundColor: palette, borderWidth: 2, borderColor: '#ffffff' }] }, options: doughOpts }; }, window.DASH.devices);
+    render('chartCountries', function (d) { return { type: 'bar', data: { labels: d.labels, datasets: [{ data: d.values, backgroundColor: '#2ec4a6', borderRadius: 6, maxBarThickness: 40 }] }, options: barOpts }; }, window.DASH.countries);
+    render('chartInterests', function (d) { return { type: 'doughnut', data: { labels: d.labels, datasets: [{ data: d.values, backgroundColor: palette, borderWidth: 2, borderColor: '#ffffff' }] }, options: doughOpts }; }, window.DASH.interests);
+  })();
+  </script>
+</body>
+</html>

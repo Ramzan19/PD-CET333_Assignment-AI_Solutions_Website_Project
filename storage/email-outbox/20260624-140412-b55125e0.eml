@@ -1,0 +1,23 @@
+To: john@example.com
+Subject: Customer Inquiry #1 Report
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="report-33bb30342885540927b597be"
+From: AI-Solutions Admin <no-reply@ai-solutions.local>
+
+--report-33bb30342885540927b597be
+Content-Type: text/plain; charset=UTF-8
+
+Attached is the requested AI-Solutions admin report: Customer Inquiry #1.
+
+--report-33bb30342885540927b597be
+Content-Type: text/csv; charset=utf-8; name="customer-inquiry-1-20260624-140412.csv"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="customer-inquiry-1-20260624-140412.csv"
+
+RmllbGQsVmFsdWUKSWQsMQoiRnVsbCBOYW1lIiwiSm9obiBEb2UiCkVtYWlsLGpvaG5AZXhhbXBs
+ZS5jb20KUGhvbmUsKzk3Nzk4MDAwMDAwMQoiQ29tcGFueSBOYW1lIixUZWNoQ29ycApDb3VudHJ5
+LE5lcGFsCiJTb2x1dGlvbiBJbnRlcmVzdCIsIlZpcnR1YWwgQXNzaXN0YW50IgoiSm9iIFRpdGxl
+IiwiT3BlcmF0aW9ucyBNYW5hZ2VyIgoiSm9iIERldGFpbHMiLCJJbnRlcmVzdGVkIGluIEFJLXBv
+d2VyZWQgY3VzdG9tZXIgc3VwcG9ydCBhdXRvbWF0aW9uLiIKU3RhdHVzLE5ldwoiQWRtaW4gTm90
+ZSIsCiJDcmVhdGVkIEF0IiwiMjAyNi0wNi0yMCAxNjo1OToyNCIKIlVwZGF0ZWQgQXQiLAo=
+--report-33bb30342885540927b597be--

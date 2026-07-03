@@ -1,0 +1,7 @@
+{
+    "queued_at": "2026-06-24 14:04:12",
+    "to": "john@example.com",
+    "subject": "Customer Inquiry #1 Report",
+    "attachment": "customer-inquiry-1-20260624-140412.csv",
+    "note": "SMTP settings are not complete."
+}

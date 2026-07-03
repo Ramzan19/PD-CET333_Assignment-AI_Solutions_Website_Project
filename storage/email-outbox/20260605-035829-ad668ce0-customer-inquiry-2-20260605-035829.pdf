@@ -1,0 +1,100 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 826 >>
+stream
+BT
+/F1 9 Tf
+36 760 Td
+13 TL
+(Customer Inquiry #2) Tj
+T*
+(Generated: 2026-06-05 03:58:29) Tj
+T*
+(Total records: 13) Tj
+T*
+() Tj
+T*
+(Field | Value) Tj
+T*
+(--------------------------------------------------------------------------------------------------------------) Tj
+T*
+(Id | 2) Tj
+T*
+() Tj
+T*
+(Full Name | Sarah Johnson) Tj
+T*
+() Tj
+T*
+(Email | sarah@example.com) Tj
+T*
+() Tj
+T*
+(Phone | +441234567890) Tj
+T*
+() Tj
+T*
+(Company Name | DataWorks) Tj
+T*
+() Tj
+T*
+(Country | UK) Tj
+T*
+() Tj
+T*
+(Solution Interest | Data Analytics) Tj
+T*
+() Tj
+T*
+(Job Title | Product Lead) Tj
+T*
+() Tj
+T*
+(Job Details | Looking for analytics dashboard and workflow automation.) Tj
+T*
+() Tj
+T*
+(Status | In Progress) Tj
+T*
+() Tj
+T*
+(Admin Note | ) Tj
+T*
+() Tj
+T*
+(Created At | 2026-06-01 21:34:00) Tj
+T*
+() Tj
+T*
+(Updated At | ) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001118 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1188
+%%EOF

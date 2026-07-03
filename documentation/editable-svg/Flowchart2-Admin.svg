@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="1100" viewBox="0 0 1840 1100"><rect width="1840" height="1100" fill="#ffffff"/><defs><marker id="ah" markerWidth="11" markerHeight="11" refX="8.5" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3 L0,6 z" fill="#5a6068"/></marker></defs><text x="920.0" y="42" font-family="Carlito, DejaVu Sans, sans-serif" font-size="26" fill="#33373b" font-weight="700" text-anchor="middle">Flowchart 2 - Admin Dashboard / Admin Panel Flow</text><text x="34" y="96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#9aa1a8" font-weight="700">AUTHENTICATION</text>
+<text x="1420" y="96" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#9aa1a8" font-weight="700">DASHBOARD &amp; TASKS</text>
+<text x="1230" y="690" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#9aa1a8" font-weight="700">RECORD CRUD &amp; STORAGE</text>
+<ellipse cx="112" cy="182" rx="84" ry="38" fill="#cfe0f5" stroke="#2f6fb0" stroke-width="2.4"/>
+<text x="112" y="176.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Start: open</text>
+<text x="112" y="197.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">login page</text>
+<rect x="238" y="148" width="188" height="68" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="332.0" y="176.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Enter username</text>
+<text x="332.0" y="199.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">&amp; password</text>
+<polygon points="612,122.0 706.0,182 612,242.0 518.0,182" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="612" y="166.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Credentials</text>
+<text x="612" y="187.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">valid?</text>
+<text x="612" y="208.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">(CSRF + bcrypt)</text>
+<polyline points="196,182 238,182" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="426,182 518,182" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="772" y="148" width="208" height="68" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="876.0" y="176.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">Create session</text>
+<text x="876.0" y="198.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">(regenerate id), log</text>
+<polyline points="706,182 772,182" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="722.6" y="169.0" width="32.8" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="739.0" y="184.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Yes</text>
+<rect x="1080" y="144" width="236" height="76" rx="12" fill="#d8efd8" stroke="#3a9d52" stroke-width="2.4"/>
+<text x="1198.0" y="165.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">Admin Dashboard:</text>
+<text x="1198.0" y="187.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">totals + charts</text>
+<text x="1198.0" y="209.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">(bar / line / doughnut)</text>
+<polyline points="980,182 1080,182" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polygon points="1500,126.0 1579.0,182 1500,238.0 1421.0,182" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="1500" y="176.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">Select</text>
+<text x="1500" y="200.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">task</text>
+<polyline points="1316,182 1421,182" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="512" y="332" width="200" height="64" rx="12" fill="#ffd9d9" stroke="#d05858" stroke-width="2.4"/>
+<text x="612.0" y="358.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">Show error,</text>
+<text x="612.0" y="380.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">attempts ++</text>
+<polyline points="612,242 612,332" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="599.4" y="274.0" width="25.2" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="612.0" y="289.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">No</text>
+<polygon points="612,434.0 696.0,486 612,538.0 528.0,486" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="612" y="491.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">5+ attempts?</text>
+<polyline points="612,396 612,434" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="300" y="454" width="176" height="64" rx="12" fill="#ffd9d9" stroke="#d05858" stroke-width="2.4"/>
+<text x="388.0" y="480.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">Lock account</text>
+<text x="388.0" y="502.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">5 minutes</text>
+<polyline points="528,486 476,486" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="485.6" y="473.0" width="32.8" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="502.0" y="488.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Yes</text>
+<polyline points="300,486 150,486 150,216" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)" stroke-dasharray="6,5"/>
+<rect x="201.0" y="473.0" width="48.0" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="225.0" y="488.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">retry</text>
+<polyline points="696,486 770,486 770,300 338,300 338,216" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)" stroke-dasharray="6,5"/>
+<rect x="720.4" y="473.0" width="25.2" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="733.0" y="488.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">No</text>
+<rect x="1560" y="300" width="240" height="60" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1680.0" y="324.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Analytics: visitor</text>
+<text x="1680.0" y="345.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">tracker, monthly report</text>
+<polyline points="1500,238 1560,330.0" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1509.8" y="271.0" width="40.4" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1530.0" y="286.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">View</text>
+<rect x="1560" y="410" width="240" height="72" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1680.0" y="430.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Manage records:</text>
+<text x="1680.0" y="451.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">inquiries, demos,</text>
+<text x="1680.0" y="472.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">events, leads, fb</text>
+<polyline points="1500,238 1560,446.0" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1498.4" y="329.0" width="63.199999999999996" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1530.0" y="344.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Records</text>
+<rect x="1560" y="528" width="240" height="48" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1680.0" y="557.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Export CSV / PDF</text>
+<polyline points="1500,238 1560,552.0" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1502.2" y="382.0" width="55.599999999999994" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1530.0" y="397.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Export</text>
+<rect x="1560" y="610" width="240" height="60" rx="12" fill="#dbe9fb" stroke="#3f7fc0" stroke-width="2.4"/>
+<text x="1680.0" y="634.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Outbox / SMTP</text>
+<text x="1680.0" y="655.6" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">settings</text>
+<polyline points="1500,238 1560,640.0" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1506.0" y="426.0" width="48.0" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1530.0" y="441.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">Email</text>
+<polygon points="1360,417.0 1444.0,470 1360,523.0 1276.0,470" fill="#fff0b8" stroke="#d6a912" stroke-width="2.4"/>
+<text x="1360" y="454.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Action?</text>
+<text x="1360" y="475.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">View / Edit /</text>
+<text x="1360" y="496.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">Delete</text>
+<polyline points="1560,446 1444,470" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1474.2" y="445.0" width="55.599999999999994" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1502.0" y="460.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">manage</text>
+<rect x="1255" y="640" width="230" height="72" rx="12" fill="#ffd9d9" stroke="#d05858" stroke-width="2.4"/>
+<text x="1370.0" y="670.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">Update / delete in</text>
+<text x="1370.0" y="692.44" font-family="Carlito, DejaVu Sans, sans-serif" font-size="16" fill="#33373b" font-weight="600" text-anchor="middle">MySQL (role check)</text>
+<polyline points="1360,523 1360,640" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<path d="M1285,774 a85.0,14 0 0,1 170,0 v84 a85.0,14 0 0,1 -170,0 z" fill="#ffe2c4" stroke="#e0892c" stroke-width="2.4"/>
+<path d="M1285,774 a85.0,14 0 0,0 170,0" fill="none" stroke="#e0892c" stroke-width="2.4"/>
+<text x="1370.0" y="804.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">MySQL DB:</text>
+<text x="1370.0" y="825.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">admin users,</text>
+<text x="1370.0" y="846.1" font-family="Carlito, DejaVu Sans, sans-serif" font-size="15" fill="#33373b" font-weight="600" text-anchor="middle">all records</text>
+<polyline points="1360,712 1360,760" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<rect x="1339.8" y="723.0" width="40.4" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="1360.0" y="738.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">save</text>
+<rect x="430" y="860" width="200" height="70" rx="12" fill="#ffe6c7" stroke="#e0892c" stroke-width="2.4"/>
+<text x="530.0" y="889.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">Logout</text>
+<text x="530.0" y="912.28" font-family="Carlito, DejaVu Sans, sans-serif" font-size="17" fill="#33373b" font-weight="600" text-anchor="middle">(end session)</text>
+<ellipse cx="212" cy="895" rx="82" ry="38" fill="#cfe0f5" stroke="#2f6fb0" stroke-width="2.4"/>
+<text x="212" y="901.12" font-family="Carlito, DejaVu Sans, sans-serif" font-size="18" fill="#33373b" font-weight="600" text-anchor="middle">End</text>
+<polyline points="430,895 296,895" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)"/>
+<polyline points="1255,676 640,676 560,860" fill="none" stroke="#5a6068" stroke-width="2.4" marker-end="url(#ah)" stroke-dasharray="6,5"/>
+<rect x="885.5" y="663.0" width="124.0" height="20" rx="5" fill="#ffffff" stroke="#dfe3e8" stroke-width="1"/>
+<text x="947.5" y="678.0" font-family="Carlito, DejaVu Sans, sans-serif" font-size="13" fill="#444a50" text-anchor="middle">finish / logout</text></svg>
